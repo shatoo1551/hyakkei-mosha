@@ -1,0 +1,179 @@
+* {
+    box-sizing: border-box;
+ }
+ body {
+    margin: 0;
+    padding: 0;
+    font-family: "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", メイリオ, Meiryo, "ＭＳ Ｐゴシック", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background-color: #e6e6e6;
+    letter-spacing : 0.2em;
+ }
+ header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+    border-bottom: solid gray 1px;
+
+ }
+ h1 {
+    margin-left: 110px;
+    font-size: 10px;
+    color: black;
+ }
+ a {	
+    text-decoration: none;
+    color: black;
+ }
+ nav {
+    margin:0 0 0 auto;
+    padding-right: 120px;
+ }
+ ul {
+    list-style: none;
+    margin: 0;
+    display: flex;
+ }
+ li {
+    margin: 0 0 0 15px;
+    font-size: 14px;
+ }
+ .main-visual {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("/Users/shotaro/Library/Mobile Documents/com~apple~CloudDocs/myHP/pexels-pixabay-373543.jpg") top center / cover no-repeat;
+ }
+ h2 {
+    font-size: 30px;
+    font-weight: normal;
+    color: #fff;
+ }
+ .flowbtn10{
+   display:inline-block;	
+   font-size:15px;
+   text-decoration:none;
+   transition:.5s;
+   color:#444;	
+   }
+   .flowbtn10:hover{
+      text-decoration:none;
+      }
+   .search{
+      margin-right: 10px;
+      margin-left: 15px;
+      border-left:solid 1px black;
+      padding-left: 15px;
+   }
+   .flowbtn10 .fa-twitter:hover{
+   color:#55acee;
+   }
+   .flowbtn10 .fa-instagram:hover{
+      color:#c6529a;
+      }
+   .flowbtn10 .fa-facebook-f:hover{
+      color:#3b5998;
+      }
+   .flowbtn10 .fa-envelope:hover{
+      color:#f3981d;		
+      }
+   .title{
+      height: 173px;
+      border-bottom: solid gray 1px;
+      background-color: white;
+   }
+   .logo{
+      margin-left: 105px;
+      width: 150px;
+      margin-top: 85px;
+   }
+   .menu{
+      height:300px;
+      background-color: white;
+      z-index: 10;
+      position: absolute;
+      width: 100%;
+      text-align: center;
+      box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
+      position: relative;
+      overflow: hidden;
+      text-align: center;
+      padding: 0 auto 0 auto;
+   }
+   .menu-ul {
+   text-align: center;
+   position: relative;
+   float: left;
+   background-color:white;
+   }
+ 
+   .menu-li {
+   font-size: 12px;
+  display: inline-block;
+  padding: 20px 10px 20px 10px;
+   }
+   .campinfo:hover {
+      color:#004C71 ;
+   }
+   .hikeinfo:hover{
+      color: #917347;
+   }
+   .interview:hover{
+      color: #DC7B55;
+   }
+   .collum:hover{
+      color: #D2B74F;
+   }
+   .article:hover{
+      color: #000000;
+   }
+
+   .menu ul > li{
+      display: inline-block;
+  }
+  .menu ul > li > a{
+      padding: 15px 30px;
+      display: block;
+      font-size: 0.8em;
+      text-transform: uppercase;
+      letter-spacing: .2em;
+  }
+  .menu ul > li > span{
+      margin-left: 1.2em;
+  }
+  .menu ul > li:hover > a{
+      background-color: #efefef;
+      color: #444;
+  }
+   
+  /* Submenu */
+   
+  .menu ul li ul{
+      position: absolute;
+      top: 55px;
+      left: 0;
+  }
+  .menu ul li ul li{
+      display: block;
+  }
+  .mmenu ul li ul li a{
+      background-color: #efefef;
+      color: #444;
+  }
+  .menu ul li ul li a:hover{
+      background-color: #ddd;
+  }
+
+
+
+.menu ul li ul{
+   display: none;
+}
+.menu ul li:hover ul{
+   display: block;
+}
